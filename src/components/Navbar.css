@@ -1,0 +1,36 @@
+:root{
+  --brown:#4a3f36;
+  --panel:#3d342d;
+  --text:#ffe36b;
+  --border:#5a4c41;
+}
+
+.gns-navbar{
+  width:100%;
+  background:var(--brown);
+  color:var(--text);
+}
+.gns-navbar-inner{
+  max-width:1200px;
+  margin:0 auto;
+  padding:12px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.gns-brand{
+  font-size:22px;
+  font-weight:700;
+  letter-spacing:0.5px;
+}
+.gns-navlinks{
+  display:flex;
+  gap:24px;
+}
+.gns-link{
+  color:var(--text);
+  text-decoration:none;
+  font-size:14px;
+  opacity:0.95;
+}
+.gns-link:hover{ opacity:1; text-decoration:underline dotted var(--text); text-underline-offset:4px; }
